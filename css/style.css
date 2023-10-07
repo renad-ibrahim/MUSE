@@ -1,0 +1,313 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 20px;
+    height: 100vh;
+}
+.container{
+    width: 75%;
+}
+.title{
+    color: #FBD784;
+}
+.line{
+    width: 70px;
+    height: 1px;
+    background-color: #FBD784;
+    float: left;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+h1 , p , h2{
+    font-weight: bold;
+}
+/* ************ start header ************ */
+/* ******** start navbar ******** */
+.navbar{
+    padding: 30px 0 20px 0;
+}
+.navbar .logo{
+    width: 90px;
+    top: 17%;
+}
+.navbar .first-ul{
+    position: relative;
+    left: 37%;
+    top: 4px;
+    padding-right: 20px;
+    font-weight: 900;
+}
+.navbar .first-ul a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.navbar a:hover{
+    color: #4986C3;
+}
+.navbar a i{
+    padding-right: 5px;
+}
+/* * ** * * *Media Query navbar * * **  ** *  **/
+@media screen and (max-width:991px) {
+    .first-ul{
+        display: none;
+    }
+    .muse-header img{
+        position: relative !important;
+    }
+    .heading-muse{
+        left: 15% !important;
+        text-align: center;
+    }
+    .line{
+        margin-right: -30px !important;
+    }
+   
+}
+/* ******** end navbar ******** */
+.muse-header{
+    position: relative;
+    color: white;
+    height: 100vh;
+    background: url(../images/header%20pic.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.muse-header img{
+    position: absolute;
+    width: 27%;
+    top: 30%;
+    left: 0%;
+}
+.heading-muse{
+    line-height: 2;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+.heading-muse h1 , a{
+    text-align: center;
+}
+.btn-info{
+    color: #fff;
+    border-radius: 15px;
+    background-color: #2293FF;
+    border-color: #ffffff;
+    width: 50%;
+    height: 50px;
+    padding-top: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+}
+/* ******************** slider ******************** */
+.header-inner{
+    position: fixed;
+    right: 1%;
+    top: 28%;
+}
+.header-inner ul{
+  
+    margin: 10px auto 5px;
+}
+.header-inner ul li{
+    margin-top: 10px;
+}
+.header-inner ul li a{
+    color: #fff;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 8px 0;
+    transition: 0.5s;
+}
+.header-inner ul li a span{
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    right: 275%;
+    top: -92%;
+    text-align: center;
+    color: #fff;
+    padding: 21px 8px;
+}
+/*** ****************** end slider ************************* */
+/* ********************************* End header ****************************** */
+
+/* ******** Start About us ******** */
+.about-us{
+    padding-top: 100px;
+    background-color: #4986C3;
+    color: white;
+}
+.abstract{
+    padding: 50px 0 50px 0 ;
+    line-height: 2;
+}
+
+.abstract a{
+    color: #FBD784;
+    text-decoration: none;
+}
+.content{
+    width: 60%;
+    margin-left: 10%;
+}
+.sign{
+    position: absolute;
+    margin-top: -130px;
+}
+.sign p {
+    font-size: 150px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.05;
+}
+/* **************** End About us  **************** */
+
+/* ************* Start our work  *************** */
+.our-work{
+    background-color: #4986C3;
+    padding-top: 100px;
+    color: white;
+}
+.our-work .info-work{
+    padding: 50px 0 0px 0;
+
+}
+.info-work .row{
+    padding: 100px 0 50px 0 ;
+    line-height: 2;
+    align-items: center;
+}
+.our-work .row img{
+    width: 60%;
+    position: relative;
+    top: -85px;
+    left: 50px;
+}
+.our-work .row img:hover{
+    transition: 0.7s;
+    transform: translateY(-10px);
+}
+.info-work h1{
+ position: relative;
+}
+
+.info-work a{
+    color: #FBD784;
+    text-decoration: none;
+}
+/* ******** End our work  ******** */
+
+/* ******** start How It Works  ******** */
+.how-works{
+    padding: 50px 0 50px 0 ;
+    background-color: #4986C3;
+    color: white;
+    text-align: center;
+}
+.how-works h2{
+    color: #FBD784;
+}
+.how-works .row{
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+.d1 {
+   width: 25%;
+}
+.d1:hover{
+    transform: translateY(-10px);
+    transition: 0.7s;
+}
+/* ******** end How It Works  ******** */
+
+/* ******** start End Section******** */
+.the-end{
+    text-align: center;
+    padding: 50px 0 50px 0 ;
+    background-color: #4986C3;
+
+}
+.the-end .container{
+    padding: 50px 0 100px 0;
+}
+.the-end h1{
+    color: white;
+    padding-bottom: 30px;
+}
+.the-end .btn{
+    width: 20%;
+    background-color: #4986C3;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: #FBD784;
+}
+.the-end .btn:hover{
+    transform: translateY(-10px);
+    transition: 0.7s;
+}
+/* *********** end End Section ********** */
+/** ************ footer ************* */
+.footer{
+    padding: 50px 0 0px 0;
+    background-color: #4986C3;
+    color: #fff;
+    text-align: center;
+}
+.footer span{
+    color: #FBD784;
+}
+/* *********** ************ */
+@media (max-width:991px){
+    .container{
+        overflow: hidden;
+    }
+    .navbar{
+        overflow: hidden;
+    }
+    .navbar-nav{
+        position: relative;
+        right: -85%;
+    }
+    .content{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+@media (min-width:520px) and (max-width:720px){
+    .container{
+        overflow: hidden;
+    }
+    .content{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .navbar{
+        overflow: hidden;
+    }
+    .navbar-nav{
+        position: relative;
+        right: -68%;
+    }
+    .heading-muse{
+        left: 8%;
+        text-align: center;
+    }
+    .muse-header img{
+        top: 50%;
+    }
+    .our-work .row img{
+        width: 100%;
+        left: 0px;
+    }
+    .how-works .d1{
+        width: 50%;
+    }
+}
